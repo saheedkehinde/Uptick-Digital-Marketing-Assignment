@@ -92,8 +92,8 @@ const StrategicSection = () => {
         
         
          
-          <div className=" w-max-fit md:h-max- mr-20  ">
-            <img src={Laptop} className="h-[20rem] w-[30rem] object-cover border-2" loading="lazy"/>
+          <div className=" w-max-40 md:h-max-40 mr-20  ">
+            <img src={Laptop} className="h-[20rem] w-[40rem] object-cover " loading="lazy"/>
             
           </div>
         

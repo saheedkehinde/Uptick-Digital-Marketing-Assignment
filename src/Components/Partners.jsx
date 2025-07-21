@@ -6,22 +6,25 @@ import Group4 from '../assets/icons/group 291.png'
 import Group5 from '../assets/icons/group.png'
 
 
-const Groups = [Group1, Group2, Group3, Group4,
-     Group5,];
+
 
  
 
 
 const Partners = () => {
   return (
-    <section className='relative bg-[#F5F5F5] flex flex-col items-center justify-center'>
-        <div className='flex justify-center gap-30 items-center  animate-scroll whitespace-nowrap flex-row mt-15 mb-15'>
+    <section className='bg-[#F5F5F5] h-35 flex flex-col items-center justify-center'>
+        <div className='flex justify-center gap-30 items-center flex-row mt-15 mb-15'>
             
-             {Groups.map((groups, idx) => 
-              <div key={idx}>
-                <img src={groups} alt="" />
-              </div>
-            )}
+            
+              
+                <img src={Group1} alt="" />
+                <img src={Group2} alt="" />
+                <img src={Group3} alt="" />
+                <img src={Group4} alt="" />
+                <img src={Group5} alt="" />
+              
+            
         </div>
     </section>
   )
