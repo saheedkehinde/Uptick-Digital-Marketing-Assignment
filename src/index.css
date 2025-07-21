@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.custom-dashed-line {
+  position: absolute;
+  top: 30%;
+  left: 9rem; /* add left spacing so it doesn't touch first circle */
+  right: 9rem; /* add right spacing so it doesn't touch last circle */
+  height: 2px;
+  background-image: repeating-linear-gradient(
+    to right,
+    #d1d5db,
+    #d1d5db 15px,
+    transparent 2px,
+    transparent 20px
+  );
+  z-index: 0;
+}
