@@ -23,11 +23,11 @@ const Articles = () => {
         </div>
 
         {/* Grid Articles */}
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-10 items-start">
-          {/* First article (bigger span) */}
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-5 items-start ">
+          
           <div className="md:col-span-2 bg-white overflow-hidden">
             <img
-              src={Rect} // Replace with your image
+              src={Rect} 
               alt="SEO"
               className="w-full h-70 object-cover"
             />
