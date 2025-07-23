@@ -1,9 +1,9 @@
 import React from 'react'
-import Group1 from '../assets/icons/group 502.png'
-import Group2 from '../assets/icons/group 505.svg'
-import Group3 from '../assets/icons/group 521.png'
-import Group4 from '../assets/icons/group 291.png'
-import Group5 from '../assets/icons/group.png'
+import Group1 from '../assets/icons/Group 502.png'
+import Group2 from '../assets/icons/Group 505.svg'
+import Group3 from '../assets/icons/Group 521.png'
+import Group4 from '../assets/icons/Group 291.png'
+import Group5 from '../assets/icons/Group.png'
 
 
 
