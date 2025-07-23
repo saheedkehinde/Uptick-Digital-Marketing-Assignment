@@ -1,6 +1,6 @@
 import React from 'react'
 import Rectangle from '../assets/Rectangle 1.png'
-import Image from '../assets/img.png'
+import Image from '../assets/Img.png'
 import Group6 from '../assets/Group 618.png'
 
 const Newsletter = () => {
