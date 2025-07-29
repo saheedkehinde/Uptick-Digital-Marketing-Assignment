@@ -132,90 +132,10 @@
 }
 
 
-@media (max-width: 768px) {
-  /* Stack items in a column for mobile */
-  section.bg-\[\#F5F5F5\] > div {
-    flex-direction: column !important;
-    gap: 1.5rem !important;
-    margin-top: 5rem !important;
-    margin-bottom: 1.5rem !important;
-  }
-
-  section.bg-\[\#F5F5F5\] img {
-    width: 70%; /* Or 100% if you want full-width logos */
-    max-width: 250px;
-    height: auto;
-    object-fit: contain;
-  }
-}
 
 
-@media (max-width: 768px) {
-  section.relative {
-    height: auto !important;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
-    margin-bottom: 10rem !important;
-    margin-top: 2rem !important;
-    flex-direction: column !important;
-  }
 
-  section.relative > img {
-    width: 100% !important;
-    height: auto !important;
-    object-fit: cover !important;
-  }
 
-  section.relative .absolute.h-\[70vh\] {
-    position: relative !important;
-    height: auto !important;
-    width: 100% !important;
-    margin-top: 1rem;
-  }
-
-  section.relative .absolute.h-\[70vh\] img {
-    width: 100% !important;
-    height: auto !important;
-  }
-
-  section.relative .z-10 {
-    position: relative !important;
-    width: 100% !important;
-    padding: 1rem;
-    text-align: left !important;
-  }
-
-  section.relative .z-10 h2 {
-    font-size: 1.25rem !important; /* text-2xl */
-    line-height: 1.5 !important;
-  }
-
-  section.relative .z-10 form {
-    flex-direction: column !important;
-    align-items: stretch !important;
-    gap: 1rem !important;
-  }
-
-  section.relative .z-10 input {
-    width: 100% !important;
-  }
-
-  section.relative .z-10 button {
-    width: 100% !important;
-    text-align: center;
-  }
-
-  section.relative .z-10 .items-start {
-    justify-content: flex-start !important;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
-  }
-
-  section.relative .z-10 .items-start img {
-    max-width: 100%;
-    height: auto;
-  }
-}
 
 
 
